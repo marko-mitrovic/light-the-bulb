@@ -2,17 +2,17 @@ import React from "react";
 
 function ButtonText({ active }) {
   return (
-    <>
+    <div>
       {active ? (
-        <>
-          <p>Battery Connected</p>
-        </>
+        <div>
+          <p>Disconnect</p>
+        </div>
       ) : (
-        <>
-          <p>Battery Disconnected</p>
-        </>
+        <div>
+          <p>Connect</p>
+        </div>
       )}
-    </>
+    </div>
   );
 }
 

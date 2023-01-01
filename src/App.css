@@ -43,6 +43,12 @@ button {
   cursor: pointer;
 }
 
+.group-battery-and-power-switch {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
